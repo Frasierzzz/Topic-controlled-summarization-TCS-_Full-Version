@@ -1,0 +1,22 @@
+# Core libraries used for the evaluation and additional experiments (Google Colab, Python 3.13).
+# The models were trained earlier with the library versions available on Google Colab at that time.
+torch==2.14.1
+transformers==5.22.1
+tokenizers==0.23.3
+sentencepiece==0.2.2
+huggingface_hub==1.33.0
+sentence-transformers==5.7.0
+bert-score==0.3.13
+rouge-score==0.1.2
+numpy==2.4.6
+pandas==2.2.3
+scipy==1.16.3
+scikit-learn==1.6.1
+tqdm==4.67.3
+matplotlib==3.10.0
+requests==2.32.4
+openai==2.54.0
+google-genai==2.12.1
+# Data preparation
+datasets==3.6.0        # SciTLDR loading (Part 1)
+medcat==2.6.0          # biomedical topic annotation (Part 2), model pack medmen_wstatus_2021_oct
