@@ -64,8 +64,3 @@ Run Part 0 first. Each later part can then be run on its own. Paths are set in t
 - **Pair sampling.** Pairs are drawn with NumPy's random generator. Re-running the data preparation gives pools with the same similarity distribution and tier shares, but not the identical pairs used to train the reported models; the exact training sets are in the Dataverse deposit.
 - **Biomedical evaluation input.** `EVAL_CONTEXT = "abstract"` (Part 2.2) reproduces the validation and test sets used for the reported results, in which the whole abstract is the input. This makes the biomedical task partly extractive, as discussed in the Limitations of the manuscript. `EVAL_CONTEXT = "fulltext"` builds these sets in the same way as the training records.
 - **Row order of result files.** Topic-alignment scores assume that each result file is in the same row order as its test file. Part 3.1 prints the Win Rate per seed; a value close to the chance level (50% in the biomedical domain) indicates a misaligned file. Such seeds can be excluded with `EXCLUDE_SEEDS` in Part 3.3.
-
-
-## Contact
-
-Thanapong Intharah (corresponding author), Visual Intelligence Laboratory, Faculty of Science, Khon Kaen University, Thailand — thanin@kku.ac.th
