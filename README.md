@@ -8,9 +8,9 @@ This repository contains the code used in the manuscript submitted to *Scientifi
 
 | File | Description |
 |---|---|
-| `code_for_manu.ipynb` | Full pipeline, organised in four parts (see below) |
-| `requirements.txt` | Core libraries and the versions used for evaluation |
-| `requirements_full.txt` | Complete list of packages in the Google Colab environment (`pip freeze`) |
+| `TCS_code.ipynb` | Full pipeline, organised in four parts (see below) |
+| `Requirements.txt` | Core libraries and the versions used for evaluation |
+| `Requirements_full.txt` | Complete list of packages in the Google Colab environment (`pip freeze`) |
 
 ## Data
 
