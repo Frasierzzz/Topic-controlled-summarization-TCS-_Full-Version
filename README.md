@@ -65,11 +65,6 @@ Run Part 0 first. Each later part can then be run on its own. Paths are set in t
 - **Biomedical evaluation input.** `EVAL_CONTEXT = "abstract"` (Part 2.2) reproduces the validation and test sets used for the reported results, in which the whole abstract is the input. This makes the biomedical task partly extractive, as discussed in the Limitations of the manuscript. `EVAL_CONTEXT = "fulltext"` builds these sets in the same way as the training records.
 - **Row order of result files.** Topic-alignment scores assume that each result file is in the same row order as its test file. Part 3.1 prints the Win Rate per seed; a value close to the chance level (50% in the biomedical domain) indicates a misaligned file. Such seeds can be excluded with `EXCLUDE_SEEDS` in Part 3.3.
 
-## Citation
-
-If you use this code, please cite:
-
-> Yodthap, N., Bulathwela, S. & Intharah, T. A modular data augmentation framework for low-resource scientific and biomedical topic-controlled summarization. *Scientific Reports* (under review).
 
 ## Contact
 
